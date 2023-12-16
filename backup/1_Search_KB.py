@@ -91,26 +91,32 @@ if prompt := st.chat_input(placeholder="履约项目管理的基本原则是什�
         ans_list = answer
         for item in ans_list:
             if len(item['prefix']) > 2:
-                # content_string = f"{replace_links(item['prefix'])}: {replace_links(item['content'])}"                
-                content_string = f"{item['prefix']}: {item['content']}"                
+                content_string = f"{replace_links(item['prefix'])}: {replace_links(item['content'])}"                
             else:
                 content_string = item['content']
-            # st.markdown(content_string)    
-            # st.divider()                
+            st.markdown(content_string)    
+            st.divider()                
             messages.append({"role": "assistant", "content": content_string})
-            # st.rerun()
-
-for msg in messages:
-    st.chat_message(msg["role"]).write(msg["content"])            
 
 if st.session_state["response"]:
     feedback = streamlit_feedback(
         feedback_type="thumbs",
-        optional_text_label='''请说明你认为比较靠谱的答案编号，用空格隔开，例如"1 3 5"''',
+        optional_text_label="[Optional] Please provide an explanation",
         key=f"feedback_{len(messages)}",
     )
     # This app is logging feedback to Trubrics backend, but you can send it anywhere.
     # The return value of streamlit_feedback() is just a dict.
     # Configure your own account at https://trubrics.streamlit.app/
-    if feedback:
-        st.toast("谢谢你的反馈，有利于不断提高搜索的准确度", icon="📝")    
+    if feedback and "TRUBRICS_EMAIL" in st.secrets:
+        config = trubrics.init(
+            email=st.secrets.TRUBRICS_EMAIL,
+            password=st.secrets.TRUBRICS_PASSWORD,
+        )
+        collection = trubrics.collect(
+            component_name="default",
+            model="gpt",
+            response=feedback,
+            metadata={"chat": messages},
+        )
+        trubrics.save(config, collection)
+        st.toast("Feedback recorded!", icon="📝")

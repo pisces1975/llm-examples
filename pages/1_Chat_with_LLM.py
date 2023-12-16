@@ -2,19 +2,27 @@ from openai import OpenAI
 import streamlit as st
 from streamlit_feedback import streamlit_feedback
 import trubrics
+from utilities.logger import LOG
 
 with st.sidebar:
-    openai_api_key = st.text_input("OpenAI API Key", key="feedback_api_key", type="password")
-    "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
-    "[View the source code](https://github.com/streamlit/llm-examples/blob/main/pages/5_Chat_with_user_feedback.py)"
-    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
+    # openai_api_key = st.text_input("OpenAI API Key", key="feedback_api_key", type="password")
+    # "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
+    # "[View the source code](https://github.com/streamlit/llm-examples/blob/main/pages/5_Chat_with_user_feedback.py)"
+    # "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
+    user_id = st.text_input("员工号", type="default", help="请输入员工号")
+    user_password = st.text_input("密码", type="password", help="请输入密码")    
+    # answer_limit = st.text_input("答案个数", type="default", help="请输入经验库搜索答案的个数")
+    # "[履约项目经验库](https://www.tapd.cn/36446663/markdown_wikis/show/#1136446663001004924)"
 
-st.title("📝 Chat with feedback (Trubrics)")
+# st.title("📝 Chat with feedback (Trubrics)")
+st.title("💬 小九AI")
+st.caption("🚀 基于大模型技术和履约项目经验库的AI助手")
+# """
+# In this example, we're using [streamlit-feedback](https://github.com/trubrics/streamlit-feedback) and Trubrics to collect and store feedback
+# from the user about the LLM responses.
+# """
 
-"""
-In this example, we're using [streamlit-feedback](https://github.com/trubrics/streamlit-feedback) and Trubrics to collect and store feedback
-from the user about the LLM responses.
-"""
+LOG.debug(f"user ID = {user_id}")
 
 if "messages" not in st.session_state:
     st.session_state.messages = [

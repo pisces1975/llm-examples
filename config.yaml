@@ -1,0 +1,38 @@
+# addr of vector db
+milvus: 47.97.97.233
+# optimized mode for vector search, obsolete
+optimize: false
+# number of chars WX allows to return
+wxlength: 2200
+# AP2D forward key
+API_KEY: fk211855-Tz6P6rpqRuDnBn4YtMORvD6FoxYGCa2t
+# distance threshold for vector search
+distance: 1.0
+# min length of question
+question_length: 6
+# length of min to look for duplicated questions
+timespan: 20
+# debug mode, skip the wx authentication and encryption part
+debug_mode: on
+# max tokens in chat mode
+token_limit: 600 
+# MySQL related info
+# mysql_host: 10.101.9.50
+mysql_host: 127.0.0.1
+mysql_user: root
+mysql_pwd: newpass
+mysql_db: knowledgebase
+# admin account
+admin_user: 10761
+# database mode
+database: mysql
+# ERNIE API Key
+ERNIE_API_KEY: GEkIBc9D4RjGMMR40wTkKxPp
+# ERNIE API SECRET
+ERNIE_SECRET_KEY: MYxu0QD6c9kaPGhzuL0UQTVG5UhhwN8I
+# maintenance mode
+maintenance_mode: 0
+# price of ERNIE 4.0 in fen
+e4_price: 12
+# price of ERNIE 3.0 in fen
+e3_price: 1.2

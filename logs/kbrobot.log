@@ -1,0 +1,522 @@
+2023-12-15 09:01:47.054 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:11:57.048 | DEBUG    | utilities.constants:__init__:26 - 1644 Succesfully load 17 keywords
+2023-12-15 09:12:11.955 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:12:11.956 | INFO     | utilities.embedding_driver:__init__:35 - =========== [1644]-[24620]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:12:24.020 | INFO     | utilities.embedding_driver:__init__:46 - =========== [1644]-[24620]  Complete connecting xinference server ===========
+2023-12-15 09:12:24.034 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:12:31.059 | DEBUG    | utilities.constants:__init__:26 - 18736 Succesfully load 17 keywords
+2023-12-15 09:12:45.407 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:12:45.408 | INFO     | utilities.embedding_driver:__init__:35 - =========== [18736]-[15440]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:12:55.818 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 09:12:55.828 | DEBUG    | __main__:<module>:81 - [17020]-[23288]  Start query (10761, 8, 1): 开发策划怎么做
+2023-12-15 09:12:56.848 | INFO     | utilities.embedding_driver:__init__:46 - =========== [18736]-[15440]  Complete connecting xinference server ===========
+2023-12-15 09:12:56.867 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:12:56.972 | INFO     | utilities.embedding_driver:query:56 - =========== [18736]-[24428]  Start searching based on vector similarity (10761, 8, 1): 开发策划怎么做 ===========
+2023-12-15 09:12:57.714 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 09:12:57.715 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 09:12:57.716 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.7435s
+2023-12-15 09:12:57.717 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.8159441947937012, index:239, Content:1136446663001009352
+2023-12-15 09:12:57.718 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.842674970626831, index:190, Content:1136446663001006782
+2023-12-15 09:12:57.719 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.871479332447052, index:268, Content:1136446663001011523
+2023-12-15 09:12:57.721 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.8761581778526306, index:111, Content:1136446663001005274
+2023-12-15 09:12:57.722 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.8882004022598267, index:94, Content:1136446663001004755
+2023-12-15 09:12:57.724 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.5227764248847961, index:1779, Content:6478
+2023-12-15 09:12:57.726 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.6142808198928833, index:1781, Content:6480
+2023-12-15 09:12:57.728 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.6505377292633057, index:1774, Content:6473
+2023-12-15 09:12:57.730 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.6909552216529846, index:1780, Content:6479
+2023-12-15 09:12:57.732 | INFO     | utilities.embedding_driver:query:92 - Result 5> Distance:0.6939641833305359, index:338, Content:5011
+2023-12-15 09:12:57.734 | INFO     | utilities.embedding_driver:query:92 - Result 6> Distance:0.7151676416397095, index:339, Content:5012
+2023-12-15 09:12:57.737 | INFO     | utilities.embedding_driver:query:92 - Result 7> Distance:0.7425163984298706, index:1757, Content:6456
+2023-12-15 09:12:57.741 | INFO     | utilities.embedding_driver:query:92 - Result 8> Distance:0.7728490233421326, index:1081, Content:5780
+2023-12-15 09:13:35.644 | DEBUG    | utilities.constants:__init__:26 - 25316 Succesfully load 17 keywords
+2023-12-15 09:13:50.453 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:13:50.453 | INFO     | utilities.embedding_driver:__init__:35 - =========== [25316]-[28412]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:14:01.913 | INFO     | utilities.embedding_driver:__init__:46 - =========== [25316]-[28412]  Complete connecting xinference server ===========
+2023-12-15 09:14:01.927 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:14:15.640 | DEBUG    | __main__:<module>:81 - [17020]-[24216]  Start query (10761, 8, 1): 开发策划怎么做
+2023-12-15 09:14:15.650 | INFO     | utilities.embedding_driver:query:56 - =========== [25316]-[23860]  Start searching based on vector similarity (10761, 8, 1): 开发策划怎么做 ===========
+2023-12-15 09:14:16.424 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 09:14:16.425 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 09:14:16.426 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.7761s
+2023-12-15 09:14:16.427 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.8159441947937012, index:239, Content:1136446663001009352
+2023-12-15 09:14:16.429 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.842674970626831, index:190, Content:1136446663001006782
+2023-12-15 09:14:16.430 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.871479332447052, index:268, Content:1136446663001011523
+2023-12-15 09:14:16.431 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.8761581778526306, index:111, Content:1136446663001005274
+2023-12-15 09:14:16.432 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.8882004022598267, index:94, Content:1136446663001004755
+2023-12-15 09:14:16.435 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.5227764248847961, index:1779, Content:6478
+2023-12-15 09:14:16.438 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.6142808198928833, index:1781, Content:6480
+2023-12-15 09:14:16.441 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.6505377292633057, index:1774, Content:6473
+2023-12-15 09:14:16.444 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.6909552216529846, index:1780, Content:6479
+2023-12-15 09:14:16.447 | INFO     | utilities.embedding_driver:query:92 - Result 5> Distance:0.6939641833305359, index:338, Content:5011
+2023-12-15 09:14:16.450 | INFO     | utilities.embedding_driver:query:92 - Result 6> Distance:0.7151676416397095, index:339, Content:5012
+2023-12-15 09:14:16.453 | INFO     | utilities.embedding_driver:query:92 - Result 7> Distance:0.7425163984298706, index:1757, Content:6456
+2023-12-15 09:14:16.457 | INFO     | utilities.embedding_driver:query:92 - Result 8> Distance:0.7728490233421326, index:1081, Content:5780
+2023-12-15 09:20:34.187 | DEBUG    | utilities.constants:__init__:26 - 26780 Succesfully load 17 keywords
+2023-12-15 09:20:51.972 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:20:51.972 | INFO     | utilities.embedding_driver:__init__:35 - =========== [26780]-[6376]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:21:03.885 | INFO     | utilities.embedding_driver:__init__:46 - =========== [26780]-[6376]  Complete connecting xinference server ===========
+2023-12-15 09:21:03.903 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:21:47.506 | DEBUG    | utilities.constants:__init__:26 - 26392 Succesfully load 17 keywords
+2023-12-15 09:22:05.010 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:22:05.010 | INFO     | utilities.embedding_driver:__init__:35 - =========== [26392]-[10236]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:22:16.700 | INFO     | utilities.embedding_driver:__init__:46 - =========== [26392]-[10236]  Complete connecting xinference server ===========
+2023-12-15 09:22:16.721 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:22:51.469 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 09:22:53.194 | DEBUG    | utilities.constants:__init__:26 - 24564 Succesfully load 17 keywords
+2023-12-15 09:23:08.863 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:23:08.864 | INFO     | utilities.embedding_driver:__init__:35 - =========== [24564]-[5632]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:23:20.571 | INFO     | utilities.embedding_driver:__init__:46 - =========== [24564]-[5632]  Complete connecting xinference server ===========
+2023-12-15 09:23:20.586 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:23:22.930 | DEBUG    | __main__:<module>:82 - [17020]-[24788]  Start query (10761, 8, 1): 开发策划怎么做
+2023-12-15 09:23:22.940 | INFO     | utilities.embedding_driver:query:56 - =========== [24564]-[24608]  Start searching based on vector similarity (10761, 8, 1): 开发策划怎么做 ===========
+2023-12-15 09:23:23.685 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 09:23:23.686 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 09:23:23.687 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.7465s
+2023-12-15 09:23:23.688 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.8159441947937012, index:239, Content:1136446663001009352
+2023-12-15 09:23:23.689 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.842674970626831, index:190, Content:1136446663001006782
+2023-12-15 09:23:23.690 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.871479332447052, index:268, Content:1136446663001011523
+2023-12-15 09:23:23.691 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.8761581778526306, index:111, Content:1136446663001005274
+2023-12-15 09:23:23.692 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.8882004022598267, index:94, Content:1136446663001004755
+2023-12-15 09:23:23.695 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.5227764248847961, index:1779, Content:6478
+2023-12-15 09:23:23.698 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.6142808198928833, index:1781, Content:6480
+2023-12-15 09:23:23.701 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.6505377292633057, index:1774, Content:6473
+2023-12-15 09:23:23.703 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.6909552216529846, index:1780, Content:6479
+2023-12-15 09:23:23.707 | INFO     | utilities.embedding_driver:query:92 - Result 5> Distance:0.6939641833305359, index:338, Content:5011
+2023-12-15 09:23:23.710 | INFO     | utilities.embedding_driver:query:92 - Result 6> Distance:0.7151676416397095, index:339, Content:5012
+2023-12-15 09:23:23.712 | INFO     | utilities.embedding_driver:query:92 - Result 7> Distance:0.7425163984298706, index:1757, Content:6456
+2023-12-15 09:23:23.716 | INFO     | utilities.embedding_driver:query:92 - Result 8> Distance:0.7728490233421326, index:1081, Content:5780
+2023-12-15 09:26:17.561 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 09:26:22.381 | DEBUG    | utilities.constants:__init__:26 - 28404 Succesfully load 17 keywords
+2023-12-15 09:26:27.772 | DEBUG    | __main__:<module>:82 - [17020]-[26572]  Start query (10761, 8, 1): 测试策划怎么做
+2023-12-15 09:26:37.224 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:26:37.225 | INFO     | utilities.embedding_driver:__init__:35 - =========== [28404]-[25264]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:26:48.865 | INFO     | utilities.embedding_driver:__init__:46 - =========== [28404]-[25264]  Complete connecting xinference server ===========
+2023-12-15 09:26:48.881 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:26:48.994 | INFO     | utilities.embedding_driver:query:56 - =========== [28404]-[26392]  Start searching based on vector similarity (10761, 8, 1): 测试策划怎么做 ===========
+2023-12-15 09:26:49.721 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 09:26:49.722 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 09:26:49.723 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.7290s
+2023-12-15 09:26:49.724 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.5015647411346436, index:111, Content:1136446663001005274
+2023-12-15 09:26:49.725 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.7286787033081055, index:61, Content:1136446663001003525
+2023-12-15 09:26:49.726 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.7831146717071533, index:254, Content:1136446663001009809
+2023-12-15 09:26:49.727 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.8122442960739136, index:39, Content:1136446663001003141
+2023-12-15 09:26:49.728 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.8260032534599304, index:48, Content:1136446663001003285
+2023-12-15 09:26:49.730 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.48765721917152405, index:1180, Content:5879
+2023-12-15 09:26:49.734 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.5853722095489502, index:255, Content:1945
+2023-12-15 09:26:49.736 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.6271065473556519, index:1168, Content:5867
+2023-12-15 09:26:49.737 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.6552252769470215, index:1813, Content:6512
+2023-12-15 09:26:49.739 | INFO     | utilities.embedding_driver:query:92 - Result 5> Distance:0.6574127078056335, index:1814, Content:6513
+2023-12-15 09:26:49.741 | INFO     | utilities.embedding_driver:query:92 - Result 6> Distance:0.667497456073761, index:342, Content:5015
+2023-12-15 09:26:49.743 | INFO     | utilities.embedding_driver:query:92 - Result 7> Distance:0.6682383418083191, index:350, Content:5023
+2023-12-15 09:26:49.745 | INFO     | utilities.embedding_driver:query:92 - Result 8> Distance:0.6743980646133423, index:818, Content:5517
+2023-12-15 09:27:33.822 | DEBUG    | utilities.constants:__init__:26 - 28108 Succesfully load 17 keywords
+2023-12-15 09:27:48.218 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:27:48.219 | INFO     | utilities.embedding_driver:__init__:35 - =========== [28108]-[11292]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:27:59.660 | INFO     | utilities.embedding_driver:__init__:46 - =========== [28108]-[11292]  Complete connecting xinference server ===========
+2023-12-15 09:27:59.673 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:28:23.947 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 09:28:23.965 | DEBUG    | __main__:<module>:82 - [17020]-[6804]  Start query (10761, 8, 1): 测试策划怎么做
+2023-12-15 09:28:23.978 | INFO     | utilities.embedding_driver:query:56 - =========== [28108]-[28660]  Start searching based on vector similarity (10761, 8, 1): 测试策划怎么做 ===========
+2023-12-15 09:28:24.722 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 09:28:24.722 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 09:28:24.723 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.7452s
+2023-12-15 09:28:24.725 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.5015647411346436, index:111, Content:1136446663001005274
+2023-12-15 09:28:24.727 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.7286787033081055, index:61, Content:1136446663001003525
+2023-12-15 09:28:24.729 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.7831146717071533, index:254, Content:1136446663001009809
+2023-12-15 09:28:24.730 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.8122442960739136, index:39, Content:1136446663001003141
+2023-12-15 09:28:24.731 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.8260032534599304, index:48, Content:1136446663001003285
+2023-12-15 09:28:24.734 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.48765721917152405, index:1180, Content:5879
+2023-12-15 09:28:24.736 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.5853722095489502, index:255, Content:1945
+2023-12-15 09:28:24.739 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.6271065473556519, index:1168, Content:5867
+2023-12-15 09:28:24.742 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.6552252769470215, index:1813, Content:6512
+2023-12-15 09:28:24.746 | INFO     | utilities.embedding_driver:query:92 - Result 5> Distance:0.6574127078056335, index:1814, Content:6513
+2023-12-15 09:28:24.748 | INFO     | utilities.embedding_driver:query:92 - Result 6> Distance:0.667497456073761, index:342, Content:5015
+2023-12-15 09:28:24.750 | INFO     | utilities.embedding_driver:query:92 - Result 7> Distance:0.6682383418083191, index:350, Content:5023
+2023-12-15 09:28:24.753 | INFO     | utilities.embedding_driver:query:92 - Result 8> Distance:0.6743980646133423, index:818, Content:5517
+2023-12-15 09:30:07.468 | DEBUG    | utilities.constants:__init__:26 - 25608 Succesfully load 17 keywords
+2023-12-15 09:30:22.188 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:30:22.188 | INFO     | utilities.embedding_driver:__init__:35 - =========== [25608]-[29076]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:30:33.448 | INFO     | utilities.embedding_driver:__init__:46 - =========== [25608]-[29076]  Complete connecting xinference server ===========
+2023-12-15 09:30:33.463 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:30:59.370 | DEBUG    | utilities.constants:__init__:26 - 22884 Succesfully load 17 keywords
+2023-12-15 09:31:05.696 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 09:31:19.138 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:31:19.138 | INFO     | utilities.embedding_driver:__init__:35 - =========== [22884]-[28180]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:31:20.866 | DEBUG    | __main__:<module>:82 - [17020]-[11076]  Start query (10761, 8, 1): 初始化工作要注意什么
+2023-12-15 09:31:30.628 | INFO     | utilities.embedding_driver:__init__:46 - =========== [22884]-[28180]  Complete connecting xinference server ===========
+2023-12-15 09:31:30.644 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:31:30.788 | INFO     | utilities.embedding_driver:query:56 - =========== [22884]-[9028]  Start searching based on vector similarity (10761, 8, 1): 初始化工作要注意什么 ===========
+2023-12-15 09:31:31.611 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 09:31:31.612 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 09:31:31.613 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.8253s
+2023-12-15 09:31:31.614 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.555645227432251, index:93, Content:1136446663001004754
+2023-12-15 09:31:31.615 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.599838137626648, index:1, Content:1136446663001003017
+2023-12-15 09:31:31.616 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.616339921951294, index:35, Content:1136446663001003114
+2023-12-15 09:31:31.617 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.6392648220062256, index:238, Content:1136446663001009351
+2023-12-15 09:31:31.618 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.7298887968063354, index:34, Content:1136446663001003113
+2023-12-15 09:31:31.620 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.4900144338607788, index:1086, Content:5785
+2023-12-15 09:31:31.623 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.5571175813674927, index:1082, Content:5781
+2023-12-15 09:31:31.625 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.5640614032745361, index:385, Content:5084
+2023-12-15 09:31:31.627 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.5820999145507812, index:1083, Content:5782
+2023-12-15 09:31:31.631 | INFO     | utilities.embedding_driver:query:92 - Result 5> Distance:0.605403482913971, index:1085, Content:5784
+2023-12-15 09:31:31.634 | INFO     | utilities.embedding_driver:query:92 - Result 6> Distance:0.6314150094985962, index:1760, Content:6459
+2023-12-15 09:31:31.636 | INFO     | utilities.embedding_driver:query:92 - Result 7> Distance:0.6376309990882874, index:656, Content:5355
+2023-12-15 09:31:31.638 | INFO     | utilities.embedding_driver:query:92 - Result 8> Distance:0.6406410932540894, index:389, Content:5088
+2023-12-15 09:35:20.821 | DEBUG    | utilities.constants:__init__:26 - 18248 Succesfully load 17 keywords
+2023-12-15 09:35:38.466 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:35:38.466 | INFO     | utilities.embedding_driver:__init__:35 - =========== [18248]-[2608]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:35:50.044 | INFO     | utilities.embedding_driver:__init__:46 - =========== [18248]-[2608]  Complete connecting xinference server ===========
+2023-12-15 09:35:50.062 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:36:37.843 | DEBUG    | utilities.constants:__init__:26 - 27280 Succesfully load 17 keywords
+2023-12-15 09:36:55.044 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:36:55.044 | INFO     | utilities.embedding_driver:__init__:35 - =========== [27280]-[7924]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:37:09.192 | INFO     | utilities.embedding_driver:__init__:46 - =========== [27280]-[7924]  Complete connecting xinference server ===========
+2023-12-15 09:37:09.209 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:38:08.125 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 09:38:08.147 | DEBUG    | __main__:<module>:82 - [17020]-[26244]  Start query (10761, 8, 1): 开发策划怎么做
+2023-12-15 09:38:08.155 | INFO     | utilities.embedding_driver:query:56 - =========== [27280]-[4996]  Start searching based on vector similarity (10761, 8, 1): 开发策划怎么做 ===========
+2023-12-15 09:38:09.000 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 09:38:09.001 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 09:38:09.002 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.8468s
+2023-12-15 09:38:09.005 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.8159441947937012, index:239, Content:1136446663001009352
+2023-12-15 09:38:09.007 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.842674970626831, index:190, Content:1136446663001006782
+2023-12-15 09:38:09.008 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.871479332447052, index:268, Content:1136446663001011523
+2023-12-15 09:38:09.010 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.8761581778526306, index:111, Content:1136446663001005274
+2023-12-15 09:38:09.011 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.8882004022598267, index:94, Content:1136446663001004755
+2023-12-15 09:38:09.015 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.5227764248847961, index:1779, Content:6478
+2023-12-15 09:38:09.018 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.6142808198928833, index:1781, Content:6480
+2023-12-15 09:38:09.022 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.6505377292633057, index:1774, Content:6473
+2023-12-15 09:38:09.025 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.6909552216529846, index:1780, Content:6479
+2023-12-15 09:38:09.028 | INFO     | utilities.embedding_driver:query:92 - Result 5> Distance:0.6939641833305359, index:338, Content:5011
+2023-12-15 09:38:09.032 | INFO     | utilities.embedding_driver:query:92 - Result 6> Distance:0.7151676416397095, index:339, Content:5012
+2023-12-15 09:38:09.038 | INFO     | utilities.embedding_driver:query:92 - Result 7> Distance:0.7425163984298706, index:1757, Content:6456
+2023-12-15 09:38:09.042 | INFO     | utilities.embedding_driver:query:92 - Result 8> Distance:0.7728490233421326, index:1081, Content:5780
+2023-12-15 09:42:11.412 | DEBUG    | utilities.constants:__init__:26 - 7228 Succesfully load 17 keywords
+2023-12-15 09:42:27.033 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:42:27.034 | INFO     | utilities.embedding_driver:__init__:35 - =========== [7228]-[11304]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:42:42.068 | INFO     | utilities.embedding_driver:__init__:46 - =========== [7228]-[11304]  Complete connecting xinference server ===========
+2023-12-15 09:42:42.082 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:43:01.273 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 09:43:01.320 | DEBUG    | __main__:<module>:82 - [17020]-[25400]  Start query (10761, 8, 1): 开发策划怎么做
+2023-12-15 09:43:01.330 | INFO     | utilities.embedding_driver:query:56 - =========== [7228]-[20212]  Start searching based on vector similarity (10761, 8, 1): 开发策划怎么做 ===========
+2023-12-15 09:43:02.154 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 09:43:02.155 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 09:43:02.157 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.8269s
+2023-12-15 09:43:02.158 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.8159441947937012, index:239, Content:1136446663001009352
+2023-12-15 09:43:02.159 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.842674970626831, index:190, Content:1136446663001006782
+2023-12-15 09:43:02.160 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.871479332447052, index:268, Content:1136446663001011523
+2023-12-15 09:43:02.161 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.8761581778526306, index:111, Content:1136446663001005274
+2023-12-15 09:43:02.162 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.8882004022598267, index:94, Content:1136446663001004755
+2023-12-15 09:43:02.165 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.5227764248847961, index:1779, Content:6478
+2023-12-15 09:43:02.167 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.6142808198928833, index:1781, Content:6480
+2023-12-15 09:43:02.170 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.6505377292633057, index:1774, Content:6473
+2023-12-15 09:43:02.172 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.6909552216529846, index:1780, Content:6479
+2023-12-15 09:43:02.175 | INFO     | utilities.embedding_driver:query:92 - Result 5> Distance:0.6939641833305359, index:338, Content:5011
+2023-12-15 09:43:02.177 | INFO     | utilities.embedding_driver:query:92 - Result 6> Distance:0.7151676416397095, index:339, Content:5012
+2023-12-15 09:43:02.180 | INFO     | utilities.embedding_driver:query:92 - Result 7> Distance:0.7425163984298706, index:1757, Content:6456
+2023-12-15 09:43:02.182 | INFO     | utilities.embedding_driver:query:92 - Result 8> Distance:0.7728490233421326, index:1081, Content:5780
+2023-12-15 09:50:02.301 | DEBUG    | utilities.constants:__init__:26 - 9572 Succesfully load 17 keywords
+2023-12-15 09:50:17.073 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:50:17.073 | INFO     | utilities.embedding_driver:__init__:35 - =========== [9572]-[23984]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 09:50:33.612 | INFO     | utilities.embedding_driver:__init__:46 - =========== [9572]-[23984]  Complete connecting xinference server ===========
+2023-12-15 09:50:33.628 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 09:51:37.762 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 09:52:02.985 | DEBUG    | __main__:<module>:82 - [17020]-[20464]  Start query (10761, 8, 1): 现场环境怎么管理
+2023-12-15 09:52:02.995 | INFO     | utilities.embedding_driver:query:56 - =========== [9572]-[28856]  Start searching based on vector similarity (10761, 8, 1): 现场环境怎么管理 ===========
+2023-12-15 09:52:04.332 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 09:52:04.332 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 09:52:04.334 | INFO     | utilities.embedding_driver:query:73 - search latency = 1.3380s
+2023-12-15 09:52:04.335 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.691019594669342, index:98, Content:1136446663001004759
+2023-12-15 09:52:04.337 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.8472535610198975, index:24, Content:1136446663001003041
+2023-12-15 09:52:04.338 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.907750129699707, index:6, Content:1136446663001003022
+2023-12-15 09:52:04.339 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.915651261806488, index:71, Content:1136446663001004155
+2023-12-15 09:52:04.340 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:1.0106855630874634, index:3, Content:1136446663001003019
+2023-12-15 09:52:04.343 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.5481823682785034, index:537, Content:5236
+2023-12-15 09:52:04.346 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.6068565845489502, index:246, Content:1760
+2023-12-15 09:52:04.349 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.6358231902122498, index:1016, Content:5715
+2023-12-15 09:52:04.350 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.6543158292770386, index:561, Content:5260
+2023-12-15 09:52:04.352 | INFO     | utilities.embedding_driver:query:92 - Result 5> Distance:0.6698886752128601, index:375, Content:5074
+2023-12-15 09:52:04.356 | INFO     | utilities.embedding_driver:query:92 - Result 6> Distance:0.6831463575363159, index:1014, Content:5713
+2023-12-15 09:52:04.360 | INFO     | utilities.embedding_driver:query:92 - Result 7> Distance:0.6866247653961182, index:345, Content:5018
+2023-12-15 09:52:04.362 | INFO     | utilities.embedding_driver:query:92 - Result 8> Distance:0.6934700012207031, index:557, Content:5256
+2023-12-15 09:53:09.617 | DEBUG    | __main__:<module>:82 - [17020]-[8720]  Start query (10761, 8, 1): 老系统的功能怎样搞清楚
+2023-12-15 09:53:09.627 | INFO     | utilities.embedding_driver:query:56 - =========== [9572]-[21876]  Start searching based on vector similarity (10761, 8, 1): 老系统的功能怎样搞清楚 ===========
+2023-12-15 09:53:10.646 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 09:53:10.646 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 09:53:10.647 | INFO     | utilities.embedding_driver:query:73 - search latency = 1.0203s
+2023-12-15 09:53:10.648 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.9108135104179382, index:138, Content:1136446663001005701
+2023-12-15 09:53:10.649 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.9205303192138672, index:141, Content:1136446663001005723
+2023-12-15 09:53:10.650 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.9325331449508667, index:14, Content:1136446663001003031
+2023-12-15 09:53:10.651 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.9412248134613037, index:35, Content:1136446663001003114
+2023-12-15 09:53:10.652 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.9435513019561768, index:201, Content:1136446663001007448
+2023-12-15 09:53:10.654 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.7262982130050659, index:311, Content:4970
+2023-12-15 09:53:10.656 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.7370538115501404, index:312, Content:4971
+2023-12-15 09:53:10.658 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.7859432101249695, index:310, Content:4969
+2023-12-15 09:53:10.660 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.851502537727356, index:314, Content:4973
+2023-12-15 09:53:10.662 | INFO     | utilities.embedding_driver:query:92 - Result 5> Distance:0.8557708263397217, index:1101, Content:5800
+2023-12-15 09:53:10.664 | INFO     | utilities.embedding_driver:query:92 - Result 6> Distance:0.858769953250885, index:656, Content:5355
+2023-12-15 09:53:10.666 | INFO     | utilities.embedding_driver:query:92 - Result 7> Distance:0.8607633113861084, index:578, Content:5277
+2023-12-15 09:53:10.671 | INFO     | utilities.embedding_driver:query:92 - Result 8> Distance:0.861069917678833, index:1100, Content:5799
+2023-12-15 12:00:50.976 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 12:01:02.049 | DEBUG    | utilities.constants:__init__:26 - 19652 Succesfully load 17 keywords
+2023-12-15 12:01:12.559 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 12:01:20.951 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:01:20.952 | INFO     | utilities.embedding_driver:__init__:35 - =========== [19652]-[4388]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 12:01:41.331 | INFO     | utilities.embedding_driver:__init__:46 - =========== [19652]-[4388]  Complete connecting xinference server ===========
+2023-12-15 12:01:41.345 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:02:00.492 | DEBUG    | utilities.constants:__init__:26 - 4300 Succesfully load 17 keywords
+2023-12-15 12:02:15.308 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:02:15.308 | INFO     | utilities.embedding_driver:__init__:35 - =========== [4300]-[6824]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 12:02:26.062 | ERROR    | utilities.embedding_driver:__init__:43 - [4300]-[6824]  Could not connect with xinference server
+2023-12-15 12:02:32.519 | DEBUG    | __main__:<module>:82 - [17020]-[12880]  Start query (10761, 8, 1): 老系统的功能怎样搞清楚
+2023-12-15 12:05:00.746 | DEBUG    | utilities.constants:__init__:26 - 5308 Succesfully load 17 keywords
+2023-12-15 12:05:17.875 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:05:17.876 | INFO     | utilities.embedding_driver:__init__:35 - =========== [5308]-[22072]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 12:05:31.307 | INFO     | utilities.embedding_driver:__init__:46 - =========== [5308]-[22072]  Complete connecting xinference server ===========
+2023-12-15 12:05:31.322 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:05:39.366 | DEBUG    | utilities.constants:__init__:26 - 6740 Succesfully load 17 keywords
+2023-12-15 12:05:59.771 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:05:59.772 | INFO     | utilities.embedding_driver:__init__:35 - =========== [6740]-[8896]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 12:06:11.560 | INFO     | utilities.embedding_driver:__init__:46 - =========== [6740]-[8896]  Complete connecting xinference server ===========
+2023-12-15 12:06:11.579 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:06:25.233 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 12:06:25.262 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:06:49.845 | DEBUG    | __main__:<module>:82 - [17020]-[24592]  Start query (10761, 8, 0): 怎样做开发设计
+2023-12-15 12:06:49.853 | INFO     | utilities.embedding_driver:query:56 - =========== [6740]-[12868]  Start searching based on vector similarity (10761, 8, 0): 怎样做开发设计 ===========
+2023-12-15 12:06:50.669 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 12:06:50.670 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.8152s
+2023-12-15 12:06:50.671 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.7193167209625244, index:196, Content:1136446663001007252
+2023-12-15 12:06:50.672 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.782343327999115, index:239, Content:1136446663001009352
+2023-12-15 12:06:50.674 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.7847384214401245, index:179, Content:1136446663001006537
+2023-12-15 12:06:50.675 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.8027473092079163, index:190, Content:1136446663001006782
+2023-12-15 12:06:50.676 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.8407381772994995, index:89, Content:1136446663001004719
+2023-12-15 12:06:50.677 | INFO     | utilities.embedding_driver:query:82 - Result 6> Distance:0.8636260032653809, index:261, Content:1136446663001010800
+2023-12-15 12:06:50.678 | INFO     | utilities.embedding_driver:query:82 - Result 7> Distance:0.8717818856239319, index:126, Content:1136446663001005412
+2023-12-15 12:06:50.679 | INFO     | utilities.embedding_driver:query:82 - Result 8> Distance:0.8786181211471558, index:120, Content:1136446663001005406
+2023-12-15 12:07:11.146 | DEBUG    | __main__:<module>:82 - [17020]-[29464]  Start query (10761, 8, 0): 测试策划注意什么
+2023-12-15 12:07:11.155 | INFO     | utilities.embedding_driver:query:56 - =========== [6740]-[17280]  Start searching based on vector similarity (10761, 8, 0): 测试策划注意什么 ===========
+2023-12-15 12:07:11.917 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 12:07:11.917 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.7616s
+2023-12-15 12:07:11.918 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.491045743227005, index:111, Content:1136446663001005274
+2023-12-15 12:07:11.919 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.7279217839241028, index:48, Content:1136446663001003285
+2023-12-15 12:07:11.920 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.7394377589225769, index:53, Content:1136446663001003291
+2023-12-15 12:07:11.921 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.7430943250656128, index:61, Content:1136446663001003525
+2023-12-15 12:07:11.922 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.7589884400367737, index:254, Content:1136446663001009809
+2023-12-15 12:07:11.923 | INFO     | utilities.embedding_driver:query:82 - Result 6> Distance:0.7680659294128418, index:54, Content:1136446663001003292
+2023-12-15 12:07:11.925 | INFO     | utilities.embedding_driver:query:82 - Result 7> Distance:0.7813020348548889, index:260, Content:1136446663001010799
+2023-12-15 12:07:11.927 | INFO     | utilities.embedding_driver:query:82 - Result 8> Distance:0.8027983903884888, index:45, Content:1136446663001003174
+2023-12-15 12:07:40.694 | DEBUG    | __main__:<module>:82 - [17020]-[26128]  Start query (10761, 4, 1): 怎样管理现场环境
+2023-12-15 12:07:40.703 | INFO     | utilities.embedding_driver:query:56 - =========== [6740]-[28108]  Start searching based on vector similarity (10761, 4, 1): 怎样管理现场环境 ===========
+2023-12-15 12:07:41.987 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 12:07:41.988 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 12:07:41.989 | INFO     | utilities.embedding_driver:query:73 - search latency = 1.2855s
+2023-12-15 12:07:41.990 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.7246573567390442, index:98, Content:1136446663001004759
+2023-12-15 12:07:41.991 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.8438217639923096, index:24, Content:1136446663001003041
+2023-12-15 12:07:41.992 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.9616096615791321, index:6, Content:1136446663001003022
+2023-12-15 12:07:41.995 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.6015253067016602, index:537, Content:5236
+2023-12-15 12:07:41.998 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.6633462309837341, index:1016, Content:5715
+2023-12-15 12:07:41.999 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.6643816232681274, index:246, Content:1760
+2023-12-15 12:07:42.001 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.6782076358795166, index:561, Content:5260
+2023-12-15 12:08:28.806 | DEBUG    | __main__:<module>:82 - [17020]-[28628]  Start query (10761, 4, 1): 北京下雪了吗
+2023-12-15 12:08:28.816 | INFO     | utilities.embedding_driver:query:56 - =========== [6740]-[24396]  Start searching based on vector similarity (10761, 4, 1): 北京下雪了吗 ===========
+2023-12-15 12:08:29.943 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 12:08:29.943 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 12:08:29.945 | INFO     | utilities.embedding_driver:query:73 - search latency = 1.1291s
+2023-12-15 12:08:29.946 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:1.3672897815704346, index:84, Content:1136446663001004633
+2023-12-15 12:08:29.947 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:1.41375732421875, index:120, Content:1136446663001005406
+2023-12-15 12:08:29.949 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:1.4165043830871582, index:136, Content:1136446663001005630
+2023-12-15 12:08:29.951 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:1.270263910293579, index:1032, Content:5731
+2023-12-15 12:08:29.953 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:1.3184483051300049, index:78, Content:249
+2023-12-15 12:08:29.956 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:1.3229851722717285, index:1434, Content:6133
+2023-12-15 12:08:29.958 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:1.3277969360351562, index:1745, Content:6444
+2023-12-15 12:09:57.349 | DEBUG    | utilities.constants:__init__:26 - 28148 Succesfully load 17 keywords
+2023-12-15 12:10:11.504 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:10:11.504 | INFO     | utilities.embedding_driver:__init__:35 - =========== [28148]-[26660]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 12:10:23.209 | INFO     | utilities.embedding_driver:__init__:46 - =========== [28148]-[26660]  Complete connecting xinference server ===========
+2023-12-15 12:10:23.223 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:10:41.968 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 12:10:41.992 | DEBUG    | __main__:<module>:82 - [17020]-[12044]  Start query (10761, 4, 1): G20的发版说明有吗
+2023-12-15 12:10:42.002 | INFO     | utilities.embedding_driver:query:56 - =========== [28148]-[21940]  Start searching based on vector similarity (10761, 4, 1): G20的发版说明有吗 ===========
+2023-12-15 12:10:43.140 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 12:10:43.140 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 12:10:43.141 | INFO     | utilities.embedding_driver:query:73 - search latency = 1.1394s
+2023-12-15 12:10:43.143 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.5500613451004028, index:143, Content:1136446663001005729
+2023-12-15 12:10:43.144 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.5670172572135925, index:247, Content:1136446663001009660
+2023-12-15 12:10:43.145 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.6121946573257446, index:242, Content:1136446663001009612
+2023-12-15 12:10:43.148 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.684746265411377, index:1379, Content:6078
+2023-12-15 12:10:43.150 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.849763035774231, index:1375, Content:6074
+2023-12-15 12:10:43.152 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.8722258806228638, index:364, Content:5063
+2023-12-15 12:10:43.154 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.8737003803253174, index:1378, Content:6077
+2023-12-15 12:17:10.136 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 12:17:13.512 | DEBUG    | utilities.constants:__init__:26 - 6840 Succesfully load 17 keywords
+2023-12-15 12:17:17.855 | DEBUG    | __main__:<module>:82 - [17020]-[27964]  Start query (10761, 4, 1): G20的发版说明有吗
+2023-12-15 12:17:28.500 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:17:28.500 | INFO     | utilities.embedding_driver:__init__:35 - =========== [6840]-[29424]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 12:17:40.048 | INFO     | utilities.embedding_driver:__init__:46 - =========== [6840]-[29424]  Complete connecting xinference server ===========
+2023-12-15 12:17:40.061 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:17:40.157 | INFO     | utilities.embedding_driver:query:56 - =========== [6840]-[24188]  Start searching based on vector similarity (10761, 4, 1): G20的发版说明有吗 ===========
+2023-12-15 12:17:40.969 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 12:17:40.970 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 12:17:40.972 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.8148s
+2023-12-15 12:17:40.974 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.5500613451004028, index:143, Content:1136446663001005729
+2023-12-15 12:17:40.975 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.5670172572135925, index:247, Content:1136446663001009660
+2023-12-15 12:17:40.977 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.6121946573257446, index:242, Content:1136446663001009612
+2023-12-15 12:17:40.981 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.684746265411377, index:1379, Content:6078
+2023-12-15 12:17:40.983 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.849763035774231, index:1375, Content:6074
+2023-12-15 12:17:40.985 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.8722258806228638, index:364, Content:5063
+2023-12-15 12:17:40.989 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.8737003803253174, index:1378, Content:6077
+2023-12-15 12:18:12.268 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 12:18:18.573 | DEBUG    | __main__:<module>:82 - [17020]-[13040]  Start query (10761, 4, 1): G20的发版说明有吗
+2023-12-15 12:18:20.074 | DEBUG    | utilities.constants:__init__:26 - 26500 Succesfully load 17 keywords
+2023-12-15 12:18:36.812 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:18:36.812 | INFO     | utilities.embedding_driver:__init__:35 - =========== [26500]-[16316]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 12:18:48.334 | INFO     | utilities.embedding_driver:__init__:46 - =========== [26500]-[16316]  Complete connecting xinference server ===========
+2023-12-15 12:18:48.351 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 12:18:48.475 | INFO     | utilities.embedding_driver:query:56 - =========== [26500]-[27348]  Start searching based on vector similarity (10761, 4, 1): G20的发版说明有吗 ===========
+2023-12-15 12:18:49.230 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 12:18:49.231 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 12:18:49.232 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.7562s
+2023-12-15 12:18:49.234 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.5500613451004028, index:143, Content:1136446663001005729
+2023-12-15 12:18:49.235 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.5670172572135925, index:247, Content:1136446663001009660
+2023-12-15 12:18:49.237 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.6121946573257446, index:242, Content:1136446663001009612
+2023-12-15 12:18:49.239 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.684746265411377, index:1379, Content:6078
+2023-12-15 12:18:49.241 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.849763035774231, index:1375, Content:6074
+2023-12-15 12:18:49.244 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.8722258806228638, index:364, Content:5063
+2023-12-15 12:18:49.247 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.8737003803253174, index:1378, Content:6077
+2023-12-15 13:27:20.532 | DEBUG    | __main__:<module>:25 - user ID = 10761
+2023-12-15 13:35:58.097 | DEBUG    | __main__:<module>:25 - user ID = 10761
+2023-12-15 13:41:07.558 | DEBUG    | utilities.constants:__init__:26 - 18248 Succesfully load 17 keywords
+2023-12-15 13:41:23.632 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:41:23.632 | INFO     | utilities.embedding_driver:__init__:35 - =========== [18248]-[24112]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 13:41:35.377 | INFO     | utilities.embedding_driver:__init__:46 - =========== [18248]-[24112]  Complete connecting xinference server ===========
+2023-12-15 13:41:35.391 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:43:55.005 | DEBUG    | utilities.constants:__init__:26 - 21944 Succesfully load 17 keywords
+2023-12-15 13:44:11.794 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:44:11.794 | INFO     | utilities.embedding_driver:__init__:35 - =========== [21944]-[8144]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 13:44:24.602 | INFO     | utilities.embedding_driver:__init__:46 - =========== [21944]-[8144]  Complete connecting xinference server ===========
+2023-12-15 13:44:24.623 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:45:40.823 | DEBUG    | utilities.constants:__init__:26 - 18740 Succesfully load 17 keywords
+2023-12-15 13:45:57.469 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:45:57.469 | INFO     | utilities.embedding_driver:__init__:35 - =========== [18740]-[15956]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 13:46:09.242 | INFO     | utilities.embedding_driver:__init__:46 - =========== [18740]-[15956]  Complete connecting xinference server ===========
+2023-12-15 13:46:09.273 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:47:17.815 | DEBUG    | utilities.constants:__init__:26 - 20872 Succesfully load 17 keywords
+2023-12-15 13:47:32.043 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:47:32.043 | INFO     | utilities.embedding_driver:__init__:35 - =========== [20872]-[18104]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 13:47:44.206 | INFO     | utilities.embedding_driver:__init__:46 - =========== [20872]-[18104]  Complete connecting xinference server ===========
+2023-12-15 13:47:44.224 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:48:48.101 | DEBUG    | utilities.constants:__init__:26 - 11036 Succesfully load 17 keywords
+2023-12-15 13:49:01.480 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 13:49:04.137 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:49:04.138 | INFO     | utilities.embedding_driver:__init__:35 - =========== [11036]-[19896]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 13:49:16.044 | INFO     | utilities.embedding_driver:__init__:46 - =========== [11036]-[19896]  Complete connecting xinference server ===========
+2023-12-15 13:49:16.058 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:49:17.911 | DEBUG    | __main__:<module>:82 - [17020]-[4796]  Start query (10761, 8, 0): 怎样进行上线演练？
+2023-12-15 13:49:17.924 | INFO     | utilities.embedding_driver:query:56 - =========== [11036]-[26112]  Start searching based on vector similarity (10761, 8, 0): 怎样进行上线演练？ ===========
+2023-12-15 13:49:19.189 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 13:49:19.190 | INFO     | utilities.embedding_driver:query:73 - search latency = 1.2667s
+2023-12-15 13:49:19.192 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.6415593028068542, index:99, Content:1136446663001004760
+2023-12-15 13:49:19.193 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.8280447721481323, index:38, Content:1136446663001003139
+2023-12-15 13:49:19.194 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.8419067859649658, index:25, Content:1136446663001003042
+2023-12-15 13:49:19.195 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.8693081140518188, index:110, Content:1136446663001004923
+2023-12-15 13:49:19.197 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.8968192338943481, index:116, Content:1136446663001005334
+2023-12-15 13:49:19.198 | INFO     | utilities.embedding_driver:query:82 - Result 6> Distance:0.9159172177314758, index:100, Content:1136446663001004761
+2023-12-15 13:49:19.199 | INFO     | utilities.embedding_driver:query:82 - Result 7> Distance:0.9198692440986633, index:81, Content:1136446663001004630
+2023-12-15 13:49:19.200 | INFO     | utilities.embedding_driver:query:82 - Result 8> Distance:0.9464979767799377, index:137, Content:1136446663001005639
+2023-12-15 13:51:54.701 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 13:53:08.160 | DEBUG    | __main__:<module>:82 - [17020]-[26308]  Start query (10761, 4, 0): 测试的基本方法是什么
+2023-12-15 13:53:42.185 | DEBUG    | utilities.constants:__init__:26 - 23476 Succesfully load 17 keywords
+2023-12-15 13:53:59.985 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:53:59.985 | INFO     | utilities.embedding_driver:__init__:35 - =========== [23476]-[9020]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 13:54:14.211 | INFO     | utilities.embedding_driver:__init__:46 - =========== [23476]-[9020]  Complete connecting xinference server ===========
+2023-12-15 13:54:14.227 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:54:22.653 | DEBUG    | utilities.constants:__init__:26 - 22496 Succesfully load 17 keywords
+2023-12-15 13:54:37.688 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:54:37.688 | INFO     | utilities.embedding_driver:__init__:35 - =========== [22496]-[24168]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 13:54:58.446 | INFO     | utilities.embedding_driver:__init__:46 - =========== [22496]-[24168]  Complete connecting xinference server ===========
+2023-12-15 13:54:58.461 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:56:48.146 | DEBUG    | utilities.constants:__init__:26 - 29672 Succesfully load 17 keywords
+2023-12-15 13:57:03.145 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:57:03.145 | INFO     | utilities.embedding_driver:__init__:35 - =========== [29672]-[16316]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 13:57:19.994 | INFO     | utilities.embedding_driver:__init__:46 - =========== [29672]-[16316]  Complete connecting xinference server ===========
+2023-12-15 13:57:20.016 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 13:58:35.514 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 13:58:35.553 | DEBUG    | __main__:<module>:82 - [17020]-[8660]  Start query (10761, 4, 0): 测试的基本方法是什么
+2023-12-15 13:58:35.564 | INFO     | utilities.embedding_driver:query:56 - =========== [29672]-[17844]  Start searching based on vector similarity (10761, 4, 0): 测试的基本方法是什么 ===========
+2023-12-15 13:58:36.619 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 13:58:36.619 | INFO     | utilities.embedding_driver:query:73 - search latency = 1.0540s
+2023-12-15 13:58:36.621 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.9215171337127686, index:48, Content:1136446663001003285
+2023-12-15 13:58:36.622 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.9286227822303772, index:61, Content:1136446663001003525
+2023-12-15 13:58:36.623 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.9607419967651367, index:111, Content:1136446663001005274
+2023-12-15 13:58:36.624 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.9678853750228882, index:254, Content:1136446663001009809
+2023-12-15 13:59:41.710 | DEBUG    | __main__:<module>:82 - [17020]-[23920]  Start query (10761, 4, 1): UAT测试怎么组织
+2023-12-15 13:59:41.721 | INFO     | utilities.embedding_driver:query:56 - =========== [29672]-[2600]  Start searching based on vector similarity (10761, 4, 1): UAT测试怎么组织 ===========
+2023-12-15 13:59:42.699 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 13:59:42.700 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 13:59:42.701 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.9796s
+2023-12-15 13:59:42.702 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.6216678619384766, index:71, Content:1136446663001004155
+2023-12-15 13:59:42.703 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.6427785158157349, index:28, Content:1136446663001003046
+2023-12-15 13:59:42.705 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.6427785158157349, index:105, Content:1136446663001004771
+2023-12-15 13:59:42.722 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.5775891542434692, index:1870, Content:6569
+2023-12-15 13:59:42.726 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.5780208110809326, index:351, Content:5024
+2023-12-15 13:59:42.731 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.5784326791763306, index:350, Content:5023
+2023-12-15 13:59:42.734 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.5893709063529968, index:352, Content:5025
+2023-12-15 14:01:27.085 | DEBUG    | utilities.constants:__init__:26 - 4344 Succesfully load 17 keywords
+2023-12-15 14:01:42.792 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 14:01:42.793 | INFO     | utilities.embedding_driver:__init__:35 - =========== [4344]-[13656]  start to connect xinference server at http://10.101.9.50:9998 ===========
+2023-12-15 14:02:02.711 | INFO     | utilities.embedding_driver:__init__:46 - =========== [4344]-[13656]  Complete connecting xinference server ===========
+2023-12-15 14:02:02.732 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 14:05:34.829 | DEBUG    | utilities.constants:__init__:26 - 17020 Succesfully load 17 keywords
+2023-12-15 14:05:34.859 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 14:06:30.743 | DEBUG    | __main__:<module>:82 - [17020]-[25264]  Start query (11, 8, 0): 履约项目管理历程
+2023-12-15 14:06:30.754 | INFO     | utilities.embedding_driver:query:56 - =========== [4344]-[12628]  Start searching based on vector similarity (11, 8, 0): 履约项目管理历程 ===========
+2023-12-15 14:06:32.231 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 14:06:32.232 | INFO     | utilities.embedding_driver:query:73 - search latency = 1.4779s
+2023-12-15 14:06:32.233 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.5577932000160217, index:3, Content:1136446663001003019
+2023-12-15 14:06:32.235 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.5714213848114014, index:0, Content:1136446663001003016
+2023-12-15 14:06:32.236 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.6427485942840576, index:153, Content:1136446663001006063
+2023-12-15 14:06:32.237 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.7241722345352173, index:268, Content:1136446663001011523
+2023-12-15 14:06:32.239 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.742272675037384, index:110, Content:1136446663001004923
+2023-12-15 14:06:32.240 | INFO     | utilities.embedding_driver:query:82 - Result 6> Distance:0.7560829520225525, index:91, Content:1136446663001004752
+2023-12-15 14:06:32.241 | INFO     | utilities.embedding_driver:query:82 - Result 7> Distance:0.7908096313476562, index:273, Content:1136446663001012230
+2023-12-15 14:06:32.242 | INFO     | utilities.embedding_driver:query:82 - Result 8> Distance:0.7956658601760864, index:8, Content:1136446663001003024
+2023-12-15 14:07:32.011 | DEBUG    | __main__:<module>:82 - [17020]-[24024]  Start query (10761, 4, 1): 测试问题
+2023-12-15 14:07:32.022 | INFO     | utilities.embedding_driver:query:56 - =========== [4344]-[1584]  Start searching based on vector similarity (10761, 4, 1): 测试问题 ===========
+2023-12-15 14:07:32.664 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 14:07:32.664 | DEBUG    | utilities.embedding_driver:query:69 - Start to search text FAISS db
+2023-12-15 14:07:32.666 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.6435s
+2023-12-15 14:07:32.667 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.799798846244812, index:54, Content:1136446663001003292
+2023-12-15 14:07:32.667 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.8110743165016174, index:111, Content:1136446663001005274
+2023-12-15 14:07:32.668 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.8353424072265625, index:53, Content:1136446663001003291
+2023-12-15 14:07:32.670 | INFO     | utilities.embedding_driver:query:92 - Result 1> Distance:0.7386512160301208, index:140, Content:914
+2023-12-15 14:07:32.671 | INFO     | utilities.embedding_driver:query:92 - Result 2> Distance:0.7464988231658936, index:160, Content:1097
+2023-12-15 14:07:32.673 | INFO     | utilities.embedding_driver:query:92 - Result 3> Distance:0.7509239912033081, index:828, Content:5527
+2023-12-15 14:07:32.675 | INFO     | utilities.embedding_driver:query:92 - Result 4> Distance:0.7594908475875854, index:341, Content:5014
+2023-12-15 15:51:29.986 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 15:52:04.895 | DEBUG    | __main__:<module>:82 - [17020]-[26436]  Start query (10761, 8, 0): 多数据库开发时，应该注意什么
+2023-12-15 15:52:04.956 | INFO     | utilities.embedding_driver:query:56 - =========== [4344]-[11824]  Start searching based on vector similarity (10761, 8, 0): 多数据库开发时，应该注意什么 ===========
+2023-12-15 15:52:06.097 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 15:52:06.245 | INFO     | utilities.embedding_driver:query:73 - search latency = 1.2867s
+2023-12-15 15:52:06.252 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.6882897615432739, index:185, Content:1136446663001006543
+2023-12-15 15:52:06.255 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.7038863897323608, index:183, Content:1136446663001006541
+2023-12-15 15:52:06.256 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.7259110808372498, index:121, Content:1136446663001005407
+2023-12-15 15:52:06.256 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.7685778737068176, index:191, Content:1136446663001006783
+2023-12-15 15:52:06.257 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.7748879790306091, index:127, Content:1136446663001005414
+2023-12-15 15:52:06.258 | INFO     | utilities.embedding_driver:query:82 - Result 6> Distance:0.7939791679382324, index:181, Content:1136446663001006539
+2023-12-15 15:52:06.258 | INFO     | utilities.embedding_driver:query:82 - Result 7> Distance:0.7971213459968567, index:23, Content:1136446663001003040
+2023-12-15 15:52:06.259 | INFO     | utilities.embedding_driver:query:82 - Result 8> Distance:0.8082749843597412, index:122, Content:1136446663001005408
+2023-12-15 15:52:51.251 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 15:52:54.495 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
+2023-12-15 15:53:12.506 | DEBUG    | __main__:<module>:82 - [17020]-[9748]  Start query (10761, 8, 0): 达梦数据库开发时要注意什么
+2023-12-15 15:53:12.515 | INFO     | utilities.embedding_driver:query:56 - =========== [4344]-[12236]  Start searching based on vector similarity (10761, 8, 0): 达梦数据库开发时要注意什么 ===========
+2023-12-15 15:53:13.494 | DEBUG    | utilities.embedding_driver:query:66 - Start to search summary FAISS db
+2023-12-15 15:53:13.495 | INFO     | utilities.embedding_driver:query:73 - search latency = 0.9794s
+2023-12-15 15:53:13.496 | INFO     | utilities.embedding_driver:query:82 - Result 1> Distance:0.6440112590789795, index:224, Content:1136446663001008304
+2023-12-15 15:53:13.496 | INFO     | utilities.embedding_driver:query:82 - Result 2> Distance:0.7651097774505615, index:183, Content:1136446663001006541
+2023-12-15 15:53:13.497 | INFO     | utilities.embedding_driver:query:82 - Result 3> Distance:0.8236125707626343, index:156, Content:1136446663001006102
+2023-12-15 15:53:13.498 | INFO     | utilities.embedding_driver:query:82 - Result 4> Distance:0.8333412408828735, index:51, Content:1136446663001003288
+2023-12-15 15:53:13.498 | INFO     | utilities.embedding_driver:query:82 - Result 5> Distance:0.835552990436554, index:185, Content:1136446663001006543
+2023-12-15 15:53:13.499 | INFO     | utilities.embedding_driver:query:82 - Result 6> Distance:0.838079571723938, index:190, Content:1136446663001006782
+2023-12-15 15:53:13.500 | INFO     | utilities.embedding_driver:query:82 - Result 7> Distance:0.8622123599052429, index:94, Content:1136446663001004755
+2023-12-15 15:53:13.500 | INFO     | utilities.embedding_driver:query:82 - Result 8> Distance:0.8638544082641602, index:126, Content:1136446663001005412
+2023-12-15 16:31:27.869 | DEBUG    | utilities.db_driver:__init__:20 - Successfully connect mysql database
